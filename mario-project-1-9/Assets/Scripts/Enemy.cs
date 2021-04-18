@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        _enemySlowIndex = Random.Range(2f, 4f);
+        _enemySlowIndex = Random.Range(0.2f, 0.4f);
 
         _startPosition = transform.position;
         _endPosition = _startPosition + new Vector2(-3f, 0f);
@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
-        transform.position = Vector3.Lerp(_startPosition, _endPosition, Mathf.PingPong(Time.time / _enemySlowIndex, 1f));
+        transform.position = Vector3.Lerp(_startPosition, _endPosition, Mathf.PingPong(Time.time * _enemySlowIndex, 1f));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

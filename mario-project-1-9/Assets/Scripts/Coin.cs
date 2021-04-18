@@ -21,14 +21,14 @@ public class Coin : MonoBehaviour
     {
         if (!_isTopReached)
         {
-            transform.position = Vector2.MoveTowards(transform.position, _topPosition, _coinSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, _topPosition, _coinSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, _topPosition) < 0.1f)
                 _isTopReached = true;
         }
         else
         {
-            transform.position = Vector2.MoveTowards(transform.position, _startPosition, _coinSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, _startPosition, _coinSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, _startPosition) < 0.1f)
                 Destroy(gameObject);
