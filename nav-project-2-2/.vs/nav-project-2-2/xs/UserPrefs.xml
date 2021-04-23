@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{64C71EEA-7667-2161-0810-F9611F13D2E6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Door.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player.cs" Line="29" Column="6" />
+      <File FileName="../mario-project-1-9/Assets/Scripts/Coin.cs" />
+      <File FileName="Assets/Scripts/Fail.cs" />
+      <File FileName="Assets/Scripts/NavMeshGenerator.cs" />
+      <File FileName="Assets/Scripts/Door.cs" Line="7" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="deaffffe-aa9e-4556-a5e9-7c5f02153b9f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
